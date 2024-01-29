@@ -1,0 +1,829 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width: 100%;
+    height: 120px;
+    background-color: rgb(253, 248, 248);
+    color: black;
+    display: flex;
+    padding: 15px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.logo{
+    width: 80px;
+    margin-left: 80px;
+}
+.logo img{
+    width: 100%;
+}
+.border{
+    width:10px;
+    height: 28px;
+    border-right: 1px solid gray;
+}
+.ticket-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+}
+.ticket{
+    background-color: rgb(244, 121, 121);
+    padding: 20px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+
+}
+.ticket h3{
+    margin-top: 5px;
+}
+.rental{
+    padding: 20px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.rental h3{
+    margin-top: 5px;
+}
+.rental:hover{
+    background-color: rgb(229, 226, 226);
+    border-radius: 8px;
+}   
+.train-ticket{
+    padding: 20px;
+    font-size: 12px;
+    cursor: pointer;
+   
+}
+.train-ticket h3{
+    margin-top: 5px;
+}
+.train-ticket:hover{
+    background-color: rgb(229, 226, 226);
+    border-radius: 8px;
+}
+.account-sec{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+.help{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 3px 20px;
+    font-size: 12px;
+}
+.help img{
+    width: 30px;
+}   
+.account-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-right: 80px;
+    padding: 3px 20px;
+    font-size: 12px;
+
+} 
+.help:hover{
+    background-color:rgb(229, 226, 226) ;
+    border-radius: 10px;
+}
+.account-info img{
+    width: 30px;
+}
+.account-info:hover{
+    background-color:rgb(229, 226, 226) ;
+    border-radius: 10px;
+}
+.hero-section{
+    width: 100%;
+    position: relative;
+
+}
+.hero-section img{
+    width: 100%;
+}
+.hero-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.hero-content h2{
+    color: white;
+    margin-bottom: 20px;
+}
+.input-sec{
+    position: relative;
+    width: 830px;
+    
+}
+.hero-content input{
+    width: 100%;
+    height: 70px;
+    padding: 10px;
+    border-radius: 18px;
+    border: none;
+}
+
+.btn{
+    width: 140px;
+    height: 70px;
+    color: white;
+    background-color: rgb(248, 72, 72);
+    border: none;
+    border-bottom-right-radius: 18px;
+    border-top-right-radius: 18px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+.from{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    font-weight: 200;
+}
+.from img{
+    width: 35px;
+
+}
+.to{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 20px;
+    left: 217px;
+
+}
+.btn-change{
+    width: 30px;
+    padding: 2px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+.btn-change img{
+    width: 15px;
+    border-radius: 50%;
+}
+
+ .to .to-img{
+    width: 25px;
+} 
+.border-input{
+    width: 30px;
+    height: 70px;
+    border-left: 1px solid lightgray;
+    position: absolute;
+    top: 0px;
+    left: 230px;
+}
+.border-input2{
+    width: 30px;
+    height: 70px;
+    border-left: 1px solid lightgray;
+    position: absolute;
+    top: 0px;
+    right: 330px;
+}
+.Date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    top: 20px;
+    right: 260px;
+}
+.Date .date-img{
+    width: 30px;
+}
+.scroll-sec{
+
+    width: 80%;
+    background-color: white;
+    padding: 25px;
+    border-radius: 20px;
+   
+    border: 1px solid black;
+}
+.heading{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+
+}
+.heading p{
+    font-size: 24px;
+    font-weight: 800;
+
+}
+.btn-view{
+    width: 130px;
+    padding: 12px 0px;
+    color: rgb(13, 61, 252);
+    border-radius: 30px;
+    background-color: white;
+    border: none;
+    border: 1px solid lightgray;
+    cursor: pointer;
+}
+.btn-view:hover{
+    box-shadow: 1px 0px 3px lightgray;
+}
+.card1{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(71.04deg, rgb(12, 57, 139) -6.92%, rgb(62, 118, 216) 109.43%);
+    padding: 10px 20px;
+    border-radius: 15px;
+
+}
+.card1 img{
+    border-radius: 50%;
+}
+.card-content1 .btn-bus{
+    width: 40px;
+    border-radius: 28px;
+    border: none;
+    margin-bottom: 10px;
+}
+.card-content1 h4{
+    color: white;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.card-content1 p{
+    color: white;
+    margin-bottom: 10px;
+}
+.card-content1 .btn-first{
+    width: 60px;
+    padding: 3px 0px;
+    background: transparent;
+    border: 1px dashed white;
+    color: white;
+    border-radius: 6px;
+    -webkit-filter: blur(1);
+    
+    
+}
+.offer-sec{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    white-space: nowrap;
+    overflow-x: auto;
+
+    
+}
+.offer-part-offer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: -50px;
+}
+.card2{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(71.04deg, rgb(39, 57, 101) -6.92%, rgb(80, 210, 149) 109.43%);
+    padding: 10px 20px;
+    border-radius: 15px;
+
+}
+.card2 img{
+    border-radius: 50%;
+}
+.card-content2 .btn-bus{
+    width: 40px;
+    border-radius: 28px;
+    border: none;
+    margin-bottom: 10px;
+}
+.card-content2 h4{
+    color: white;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.card-content2 p{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.card-content2 .superhit{
+    width: 90px;
+    padding: 3px 0px;
+    background: transparent;
+    border: 1px dashed white;
+    color: white;
+    border-radius: 6px;
+}
+.card3{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(71.04deg, rgb(72, 0, 4) -6.92%, rgb(216, 78, 85) 109.43%);
+    padding: 10px 20px;
+    border-radius: 15px;
+
+}
+.card3 img{
+    border-radius: 50%;
+}
+.card-content3 .btn-bus{
+    width: 40px;
+    border-radius: 28px;
+    border: none;
+    margin-bottom: 10px;
+}
+.card-content3 h4{
+    color: white;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.card-content3 p{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.card-content3 .btn-350{
+    width: 90px;
+    padding: 3px 0px;
+    background: transparent;
+    border: 1px dashed white;
+    color: white;
+    border-radius: 6px;
+}
+.card4{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(71.04deg, rgb(14, 113, 67) -6.92%, rgb(115, 236, 179) 109.43%);
+    padding: 10px 20px;
+    border-radius: 15px;
+
+}
+.card4 img{
+    border-radius: 50%;
+}
+.card-content4 .btn-bus{
+    width: 40px;
+    border-radius: 28px;
+    border: none;
+    margin-bottom: 10px;
+}
+.card-content4 h4{
+    color: white;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.card-content4 p{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.card-content4 .btn-200{
+    width: 90px;
+    padding: 3px 0px;
+    background: transparent;
+    border: 1px dashed white;
+    color: white;
+    border-radius: 6px;
+}
+.card5{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(71.04deg, rgb(24, 125, 151) -6.92%, rgb(109, 213, 237) 109.43%);
+    padding: 10px 20px;
+    border-radius: 15px;
+
+}
+.card5 img{
+    border-radius: 50%;
+}
+.card-content5 .btn-bus{
+    width: 40px;
+    border-radius: 28px;
+    border: none;
+    margin-bottom: 10px;
+}
+.card-content5 h4{
+    color: white;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.card-content5 p{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.card-content5 .btn-NEW{
+    width: 90px;
+    padding: 3px 0px;
+    background: transparent;
+    border: 1px dashed white;
+    color: white;
+    border-radius: 6px;
+}
+.card6{
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(71.04deg, rgb(134, 0, 62) -6.92%, rgb(210, 81, 141) 109.43%);
+    padding: 10px 20px;
+    border-radius: 15px;
+
+}
+.card6 img{
+    border-radius: 50%;
+}
+.card-content6 .btn-bus{
+    width: 40px;
+    border-radius: 28px;
+    border: none;
+    margin-bottom: 10px;
+}
+.card-content6 h4{
+    color: white;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.card-content6 p{
+    color: white;
+    margin-bottom: 10px;
+}
+
+.card-content6 .btnS{
+    width: 90px;
+    padding: 3px 0px;
+    background: transparent;
+    border: 1px dashed white;
+    color: white;
+    border-radius: 6px;
+}
+.referandearn{
+    width: 100%;
+    margin-top: 320px;
+}
+.referandearn img{
+    width: 100%;
+}
+.main-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+.travel-container{
+    width: 85%;
+    display: flex;
+    border-radius: 16px;
+}
+.left-container{
+    width: 45%;
+}
+.left-container p{
+    font-size: 38px;
+}
+.left-container .bold{
+    font-weight: 900;
+}
+.ticket-container{
+    width: 95%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.mid-border{
+    width: 1px;
+    height: 60px;
+    border-left: 1px solid lightgray;
+    margin-left: 20px;
+}
+.cab-bus-rental{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid red;
+    cursor: pointer;
+
+}
+.cab-bus-rental #para-rental{
+    font-size: 18px;
+    font-weight: 900;
+    color: rgb(254, 53, 53);
+}
+.train-ticket{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+.train-ticket #para-train{
+    font-size: 18px;
+    font-weight: 900;
+    color: rgb(254, 53, 53);
+}
+#para-info{
+    font-size: 18px;
+    font-weight: 200;
+}
+#car-rent-outstation{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+#para-outstation{
+    font-size: 20px;
+    font-weight: 300;
+}
+#car-rent-hourly{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+#para-hourly{
+    font-size: 20px;
+    font-weight: 300;
+}
+#flight-rent{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+#para-airport{
+    font-size: 20px;
+    font-weight: 300;
+}
+#btn-rent{
+    padding: 15px 18px;
+    width: 230px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    color: white;
+    background-color: rgb(248, 72, 72);
+    margin-top: 50px;
+    border: none;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+}
+.right-container{
+    width: 55%;
+    position: relative;
+}
+.right-container img{
+    width: 100%;
+    padding-top: 150px;
+}
+#background-colr{
+    width: 70%;
+    height: 600px;
+    background-color: rgb(236, 216, 220);
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    border-top-right-radius:16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-top-left-radius: 0px;
+}
+.sharecontainer{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.share-content{
+    width: 80%;
+    height: 420px;
+    background-color:  rgb(237, 104, 104);
+    border-radius: 30px;
+    padding: 30px;
+
+
+}
+.enjoy-heading{
+    color: white;
+    font-weight: 200;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+.sharecontentcontainer{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+.rating{
+   width: 400px;
+   height: 270px;
+   padding: 40px 30px;
+   border-radius: 30px;
+   margin-bottom: 10px;
+   background-color: white;
+    
+}
+.check-icon{
+    color: green;
+    margin-right: 15px;
+    margin-bottom: 15px;
+
+}
+.rating-on-store{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.apprating{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.storheading{
+    font-weight: 100;
+    margin-top: 10px;
+}
+.downloads{
+    
+    color: gray;
+}
+.borderstore{
+    border-left: 2px solid gray;
+    height: 80px;
+}
+.scan-content{
+    width: 160px;
+    height: 200px;
+    padding: 0px 20px;
+    
+    
+}
+.Download-content{
+    width: 180px;
+    height: 200px;
+    padding: 0px 20px;
+    
+    
+}
+.Download-content img {
+    margin-bottom: 10px;
+}
+.Download-content h3 {
+    margin-bottom: 10px;
+    color: white;
+}
+.scan-content h3{
+    margin-bottom: 10px;
+    color: white;
+
+}
+.footer{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 228, 228);
+    margin-top: 50px;
+}
+.footer-content{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+}
+.first-content{
+    width: 280px;
+}
+.first-content img{
+    margin-bottom: 12px;
+}
+.secont-content h3{
+    margin-bottom: 5px;
+}
+.secont-content p{
+    margin-bottom: 5px;
+}
+.third-content h3{
+    margin-bottom: 5px;
+}
+.third-content p{
+    margin-bottom: 5px;
+}
+.forth-content h3{
+    margin-bottom: 5px;
+}
+.forth-content p{
+    margin-bottom: 5px;
+}
+.fifth-content h3{
+    margin-bottom: 5px;
+}
+.fifth-content p{
+    margin-bottom: 5px;
+}
+.footer-end{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 228, 228);
+    border-top: 1px solid rgb(40, 39, 39);
+}
+.footer-end-content{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-footer{
+    margin-left: 10px;
+}
+
+
+
+
+
